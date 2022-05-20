@@ -4,6 +4,44 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: rgb(18, 15, 53);
+    justify-content: space-between;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+
+    list-style: none;
+    padding: 20px;
+
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
 .first {
     color: rgb(70, 70, 180);
 }
@@ -61,4 +99,51 @@ section {
 
 .second_sec_t {
     width: 50%;
+}
+
+.skill {
+    background-color: rgb(199, 199, 199);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    display: flex;
+}
+
+.skill_taxt {
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+
+}
+
+.skill_taxt1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.text {
+    padding-top: 5%;
+}
+
+.skill_img {
+    width: 21%;
+    margin: 2%;
+
+}
+
+.skill_img img {
+    width: 100%;
+}
+
+.service {
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    display: flex;
+}
+
+.sadow {
+    box-shadow: 5px 3px 15px rgb(66, 66, 66);
+    width: 30%;
+    margin: 2.5%;
+    padding: 10px;
 }
